@@ -1,0 +1,114 @@
+/* Start --> common styles */
+
+body{font-family: 'K2D', sans-serif;}
+html {scroll-behavior: smooth;}
+
+/* End --> common styles */
+
+
+/* ---- COL-MD-CLASSES ---- */
+
+.col-md-4,.col-md-3,.col-md-6{float: left;}
+
+/* ---- COL-MD-CLASSES ---- */
+
+/***** Gradiant Buttons *****/
+/* Start --> button styles */
+
+.btn-grad-primary {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
+.btn-grad-danger {background-image: linear-gradient(to right, #FF4E50 0%, #F9D423 51%, #FF4E50 100%)}
+.btn-grad-success{background-image: linear-gradient(to right, #00C9FF 0%, #92FE9D 51%, #00C9FF 100%)}
+.btn-grad-info{background-image: linear-gradient(to right, #B2FEFA 0%, #0ED2F7 51%, #B2FEFA 100%)}
+.btn-grad-warning{background-image: linear-gradient(to right, #fffc00 0%, #ffffff 51%, #fffc00 100%)}
+.btn-grad-dark{background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%)}
+.btn-grad-basic {background-image: linear-gradient(to right, #E0EAFC 0%, #CFDEF3 51%, #E0EAFC 100%)}
+.btn-grad-violet {background-image: linear-gradient(to right, #980BE1 0%, #0ED2F7 51%, #980BE1 100%)}
+.btn-grad-light {background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 51%, #ECE9E6 100%)}
+.btn-grad{transition: 0.5s;background-size: 200% auto;color: #fff}
+.btn-grad:hover { background-position: right center;color: #fff; }
+
+/* End --> button styles */
+
+/* Start --> Navbar section */
+
+nav.navbar input[type="search"]{transition: 0.5s;border:none;background-color: transparent;border-radius: 0;background-size:100% 2px ;}
+nav.navbar input[type="search"]:focus{transition: 0.5s;outline:none;box-shadow: none;background:linear-gradient( to left, rgb(7, 200, 250) 0%, rgb(46, 141, 222) 12%, rgb(56, 126, 214) 47%, rgb(1, 209, 254) 100% ) left bottom #7770 no-repeat;background-size:100% 2px ;}
+.navbar-brand h3{color: #00c9ff;}
+.navbar-brand h3 span{color: #a7a7a7;}
+.nav-item .btn-group a{cursor: pointer;}
+
+/* Start --> Navbar section */
+
+
+/* Start --> banner styles */
+.wrapper-banner{background-image: url('banner.jpg');background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.wrapper-banner{height:450px;background-size: cover;}
+.banner{height:100%;background: rgba(39,62,84,0.82);overflow: hidden;z-index: 2;margin: 0;}
+.banner-content{width: 50%;max-width: 320px;margin-top: 175px;color: #fff;margin-left: 100px;text-align: center;animation: slide .5s linear;}
+.wrapper-banner h2{color: #00c9ff;font-size: 45px;font-weight: bold;}
+.wrapper-banner h2 span{color:#a7a7a7;}
+
+/* End --> banner styles */
+
+/* Start --> Content styles */
+.parallax_1 .card-body:hover {margin-top: -20px;transition: .4s ease-in;box-shadow: -50px 25px 20px -2px;}
+.card-body{margin-top: 0px;transition: .4s ease-in;}
+.col-md-6.data{float: left;}
+.col-md-6.data p{font-size: 15px;}
+.col-md-6.abt-img img {width: 80%;padding: 10px;border: 3px solid #04cbfc;border-radius: 10px;box-shadow: 0px 0px 2px 3px #3288db;}
+.col-md-6.abt-img {text-align: center;position:relative;float: left;display: block;}
+.abt-head{text-align: center;font-size: 35px;padding-bottom:15px;font-weight: bold;margin: 35px;position: relative;}
+.abt-head:before{position: absolute;bottom: 0;content: '';width: 180px;height: 3px;background: #000;}
+.abt-quote p{text-align: center;font-style: oblique;}
+.quote{font-size: 30px; }
+.parallax_1{height: 100%;display: flex;background-image: url("parallax_1.jpg");min-height: 450px;background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.parallax_1 .overlay{background: linear-gradient(to right, #00d2ff4d 0%, #3a7bd54d 51%, #00d2ff66 100%);width: 100%;}
+.parallax_1 .card.col-md-8 .card-body,.parallax_1 .card.col-md-8{padding: 0;}
+.parallax_1 .card.col-md-8 .card-body .img-cap img{width: 100%;}
+.parallax_1 .card.col-md-8{border: 0;margin: 0 auto;}
+.parallax_1 .card.col-md-8 .card-body .name-cap .btn{border-radius: 0;width: 100%;padding: 10px;}
+.parallax_1 h2{text-align: center;position: relative;color: #fff;margin: 0 0 35px;padding-top: 35px;}
+.parallax_1 h2:before{position: absolute;bottom: 0;content: '';width: 161px;height: 3px;background: #fff;}
+.container-fluid.abt{padding-bottom: 35px;}
+.team-wrap{height:250px;width: 100%;background-image: url('office.jpg');background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.team-wrap h2{width: 100%;height: 250px;font-size:45px;font-weight: bold;color: #fff;background: #0006;display: flex;align-items: center;justify-content: center;}
+.career-opt{width: 100%;}
+.career-opt .col-md-4 .card{margin: 35px auto;box-shadow: 3px 3px 15px 8px #ddd;}
+.carousel-item {text-align: center;padding: 25px;margin:0;border: 1px solid #ddd;border-radius: 10px;box-shadow: 0px 1px 8px 1px #132025;}
+.carousel.slide{max-width: 680px;width: 100%;margin: 0 auto}
+.carousel-item img{width: 100%;}
+.carousel-inner{overflow: inherit;text-align: center;height: 450px}
+.card-img-top:hover{width: 120%;transition: .3s ease-in-out;}
+.card-img-top{transition: .3s ease-in-out;}
+.career-opt .card{overflow: hidden;}
+.card-img{width: 340px;height: 275px;overflow: hidden;}
+.card-body a{margin: 0 auto;display: block;}
+.jobs{position: relative;}
+.jobs:before{content:url('over2.png');position:absolute;z-index:-1;margin-left: -15px}
+.jobs .container:before{content:url('over5.png');position:absolute;z-index:-1;margin-left: -15px}
+.jobs .container:after{content:url('over4.png');position:absolute;z-index:-1;margin-right: 30px;top:0;right: 0;}
+.jobs #carouselExampleIndicators:after{content:url('over3.png');position:absolute;z-index:-1;margin-right: 30px;top:0;right: 0;right: -40%;}
+
+/* End --> Content styles */
+
+/* Start --> Animations */
+
+@-webkit-keyframes slide {
+    from { margin-left: -200px; }
+    to { margin-left: 100px; }
+}
+
+/* End --> Animations */
+
+/* Start --> Media Queries */
+
+@media screen and (max-width: 980px){}
+@media screen and (max-width: 800px){}
+@media screen and (max-width: 768px){}
+@media screen and (max-width: 640px){.wrapper-banner{height: 350px;}.banner-content{margin: 0 auto;margin-top: 25%;text-align: center;}.banner{padding: 0;}}
+@media screen and (max-width: 480px){.wrapper-banner h3,.wrapper-banner h4{font-size: 20px;}.wrapper-banner h2{font-size: 40px;}}
+@media screen and (max-width: 360px){}
+@media screen and (max-width: 320px){}
+
+
+/* End --> Media Queries */
