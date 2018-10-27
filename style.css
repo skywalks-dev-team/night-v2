@@ -53,10 +53,6 @@ nav.navbar input[type="search"]:focus{transition: 0.5s;outline:none;box-shadow: 
 /* Start --> Content styles */
 .parallax_1 .card-body:hover {margin-top: -20px;transition: .4s ease-in;box-shadow: -50px 25px 20px -2px;}
 .card-body{margin-top: 0px;transition: .4s ease-in;}
-.col-md-6.data{float: left;}
-.col-md-6.data p{font-size: 15px;}
-.col-md-6.abt-img img {width: 80%;padding: 10px;border: 3px solid #04cbfc;border-radius: 10px;box-shadow: 0px 0px 2px 3px #3288db;}
-.col-md-6.abt-img {text-align: center;position:relative;float: left;display: block;}
 .abt-head{text-align: center;font-size: 35px;padding-bottom:15px;font-weight: bold;margin: 35px;position: relative;}
 .abt-head:before{position: absolute;bottom: 0;content: '';width: 180px;height: 3px;background: #000;}
 .abt-quote p{text-align: center;font-style: oblique;}
