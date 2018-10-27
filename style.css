@@ -51,6 +51,7 @@ nav.navbar input[type="search"]:focus{transition: 0.5s;outline:none;box-shadow: 
 /* End --> banner styles */
 
 /* Start --> Content styles */
+#about_us .data p:before {font-family: FontAwesome;content: "\f0a4";font-size: 25px;padding-right: 10px;font-style: normal}
 .parallax_1 .card-body:hover {margin-top: -20px;transition: .4s ease-in;box-shadow: -50px 25px 20px -2px;}
 .card-body{margin-top: 0px;transition: .4s ease-in;}
 .abt-head{text-align: center;font-size: 35px;padding-bottom:15px;font-weight: bold;margin: 35px;position: relative;}
